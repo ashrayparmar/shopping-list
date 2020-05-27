@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,body {  
+    color: beige;
+    font-family: 'Amatic SC', cursive, sans-serif;
+    font-size: 45px;
+    font-weight: 300;  /*We choose 300(normal font) from the google font*/
+    text-rendering: optimizeLegibility;  /* Optimized for ease of reading */
+    overflow-x: hidden; /* Hide the overflow of things from the page*/
+    text-align: center;
+}
+
+header {
+    background-image: linear-gradient(#373760,#0b0bbf);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+button {
+    margin-left: 18px;
+    padding: 3px;
+    width: 80px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgba(54, 54, 54, 0.466);
+    font-size: 15px;
+    background-color: #555;
+    border: 1px solid #555;
+}
+
+input {
+    text-align: center;
+    border-radius: 2px;
+    padding: 15px;
+    box-shadow: 0px 5px 5px rgba(54, 54, 54, 0.466);
+    margin-bottom: 20px;
+    font-family:monospace;
+}
+
